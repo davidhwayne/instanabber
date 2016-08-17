@@ -7,6 +7,6 @@ chrome.runtime.onMessage.addListener(function(msg, sender, sendResponse) {
     // If the received message has the expected format
     if (msg.text && (msg.text == "report_back")) {
         // Return the DOM content in callback
-        sendResponse(document.getElementsByClassName("_ovg3g")[0].getAttribute("data-reactid"));
+        sendResponse(document.getElementsByClassName("_icyx7")[0].getAttribute("src"));
     }
 });

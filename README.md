@@ -11,10 +11,10 @@ You may clone this repo or simply download the contents to a location accesible 
 When viewing an instagram photo page, a url of the form https://<span>www</span>.instagram.com/p/*, an icon will appear in the address bar. Click the icon and the full-size image will download (unless the icon is clicked while viewing the photo in a lightbox, in this case the extension will instruct you to go to the photo page in a new tab).
 
 ### Future Work
-Further work may include packaging this extension so that it may be used outside of developer mode. For now, it is less of a full application or product, and more of a development exercise. 
+Further work may include packaging this extension so that it may be used outside of developer mode. For now, it is less of a full application or product, and more of a development exercise.
 
-##Enjoy 
+##Enjoy
 
 #####Author: David Wayne
 
-#####Last Updated: 2016-02-17
+#####Last Updated: 2016-08-17

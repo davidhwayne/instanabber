@@ -9,10 +9,9 @@ function downloadImage(element) {
         alert("Please open image in a separate tab");
     }
     else{
-        element=element.replace(/=2/g,":").replace(/=1/g,".");
-        chrome.downloads.download({url : element.slice(element.indexOf("$")+1,element.indexOf("?"))});
-        //window.open(element.slice(element.indexOf("$")+1,element.indexOf("?")));
-        
+        chrome.downloads.download({url : element});
+        //window.open(element);
+
     }
 };
 
